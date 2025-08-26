@@ -1,0 +1,547 @@
+{
+  "schema_version": "1.0",
+  "dataset_generated_at": "2025-08-21T02:53:33+05:00",
+  "tariff_sets": [
+    {
+      "city": "Karachi",
+      "distributor": "K-Electric Limited",
+      "effective_date": "2025-07-01",
+      "categories": {
+        "residential_lifeline": [
+          {
+            "min_kWh": 1,
+            "max_kWh": 50,
+            "energy_charge": 3.95
+          },
+          {
+            "min_kWh": 51,
+            "max_kWh": 100,
+            "energy_charge": 7.74
+          }
+        ],
+        "residential_protected": [
+          {
+            "min_kWh": 1,
+            "max_kWh": 100,
+            "energy_charge": 10.54
+          },
+          {
+            "min_kWh": 101,
+            "max_kWh": 200,
+            "energy_charge": 13.01
+          }
+        ],
+        "residential_non_protected": [
+          {
+            "min_kWh": 1,
+            "max_kWh": 100,
+            "energy_charge": 22.44
+          },
+          {
+            "min_kWh": 101,
+            "max_kWh": 200,
+            "energy_charge": 28.91
+          },
+          {
+            "min_kWh": 201,
+            "max_kWh": 300,
+            "energy_charge": 33.1
+          },
+          {
+            "min_kWh": 301,
+            "max_kWh": 400,
+            "energy_charge": 37.99
+          },
+          {
+            "min_kWh": 401,
+            "max_kWh": 500,
+            "energy_charge": 40.2
+          },
+          {
+            "min_kWh": 501,
+            "max_kWh": 600,
+            "energy_charge": 41.62
+          },
+          {
+            "min_kWh": 601,
+            "max_kWh": 700,
+            "energy_charge": 42.76
+          },
+          {
+            "min_kWh": 701,
+            "max_kWh": null,
+            "energy_charge": 47.69
+          }
+        ],
+        "commercial": {
+          "tou": {
+            "peak_rate": 44.97,
+            "offpeak_rate": 36.3,
+            "fixed_charges_note": "As per NEPRA/GoP notifications; varies by sanctioned load",
+            "timings": {
+              "apr_oct_peak": "06:30 PM – 10:30 PM",
+              "nov_mar_peak": "06:00 PM – 10:00 PM",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "industrial": {
+          "tou": {
+            "B1_B2_B3_peak_rate": 37.83,
+            "B1_B2_B3_offpeak_rate": 29.39,
+            "fixed_charges_note": "Higher voltage categories and fixed charges apply separately",
+            "timings": {
+              "apr_oct_peak": "06:30 PM – 10:30 PM",
+              "nov_mar_peak": "06:00 PM – 10:00 PM",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "agriculture": null,
+        "public_lighting": null
+      },
+      "time_of_use": {
+        "peak": "Apr-Oct 18:30-22:30, Nov-Mar 18:00-22:00",
+        "off_peak": "Remaining hours"
+      },
+      "notes": "Karachi-specific rates (K-Electric); fixed charges per kW apply as per tariff schedule (not shown). Uniform tariff (FY2025-26) is in effect:contentReference[oaicite:0]{index=0}."
+    },
+    {
+      "city": "Lahore",
+      "distributor": "Lahore Electric Supply Company (LESCO)",
+      "effective_date": "2025-07-01",
+      "categories": {
+        "residential_lifeline": [
+          {
+            "min_kWh": 1,
+            "max_kWh": 50,
+            "energy_charge": 3.95
+          },
+          {
+            "min_kWh": 51,
+            "max_kWh": 100,
+            "energy_charge": 7.74
+          }
+        ],
+        "residential_protected": [
+          {
+            "min_kWh": 1,
+            "max_kWh": 100,
+            "energy_charge": 10.54
+          },
+          {
+            "min_kWh": 101,
+            "max_kWh": 200,
+            "energy_charge": 13.01
+          }
+        ],
+        "residential_non_protected": [
+          {
+            "min_kWh": 1,
+            "max_kWh": 100,
+            "energy_charge": 22.44
+          },
+          {
+            "min_kWh": 101,
+            "max_kWh": 200,
+            "energy_charge": 28.91
+          },
+          {
+            "min_kWh": 201,
+            "max_kWh": 300,
+            "energy_charge": 33.1
+          },
+          {
+            "min_kWh": 301,
+            "max_kWh": 400,
+            "energy_charge": 37.99
+          },
+          {
+            "min_kWh": 401,
+            "max_kWh": 500,
+            "energy_charge": 40.2
+          },
+          {
+            "min_kWh": 501,
+            "max_kWh": 600,
+            "energy_charge": 41.62
+          },
+          {
+            "min_kWh": 601,
+            "max_kWh": 700,
+            "energy_charge": 42.76
+          },
+          {
+            "min_kWh": 701,
+            "max_kWh": null,
+            "energy_charge": 47.69
+          }
+        ],
+        "commercial": {
+          "tou": {
+            "peak_rate": 44.97,
+            "offpeak_rate": 36.3,
+            "fixed_charges_note": "As per NEPRA/GoP notifications; varies by sanctioned load",
+            "timings": {
+              "jun_aug_peak": "07:00 PM – 11:00 PM",
+              "sep_nov_peak": "06:00 PM – 10:00 PM",
+              "dec_feb_peak": "05:00 PM – 09:00 PM",
+              "mar_may_peak": "06:00 PM – 10:00 PM",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "industrial": {
+          "tou": {
+            "B1_B2_B3_peak_rate": 37.83,
+            "B1_B2_B3_offpeak_rate": 29.39,
+            "fixed_charges_note": "Higher voltage categories and fixed charges apply separately",
+            "timings": {
+              "jun_aug_peak": "07:00 PM – 11:00 PM",
+              "sep_nov_peak": "06:00 PM – 10:00 PM",
+              "dec_feb_peak": "05:00 PM – 09:00 PM",
+              "mar_may_peak": "06:00 PM – 10:00 PM",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "agriculture": null,
+        "public_lighting": null
+      },
+      "fixed_charges": {
+        "SinglePhase": 75,
+        "ThreePhase": 150
+      },
+      "time_of_use": {
+        "peak": "Dec-Feb 17:00-21:00; Mar-May 18:00-22:00; Jun-Aug 19:00-23:00; Sep-Nov 18:00-22:00",
+        "off_peak": "Remaining hours"
+      },
+      "notes": "Lahore rates under uniform national tariff (FY2025-26):contentReference[oaicite:1]{index=1}; fixed monthly charges apply (Rs75/150):contentReference[oaicite:2]{index=2}."
+    },
+    {
+      "city": "Islamabad/Rawalpindi",
+      "distributor": "Islamabad Electric Supply Company (IESCO)",
+      "effective_date": "2025-07-01",
+      "categories": {
+        "residential": null,
+        "commercial": {
+          "tou": {
+            "peak_rate": 44.97,
+            "offpeak_rate": 36.3,
+            "fixed_charges_note": "Varies by sanctioned load per NEPRA notification",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "industrial": {
+          "tou": {
+            "B1_B3_peak_rate": 37.83,
+            "B1_B3_offpeak_rate": 29.39,
+            "fixed_charges_note": "Higher voltage categories apply separately",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "agriculture": null,
+        "public_lighting": null
+      },
+      "notes": "IESCO follows the uniform tariff structure (FY2025-26) across categories:contentReference[oaicite:3]{index=3}."
+    },
+    {
+      "city": "Faisalabad",
+      "distributor": "Faisalabad Electric Supply Company (FESCO)",
+      "effective_date": "2025-07-01",
+      "categories": {
+        "residential": null,
+        "commercial": {
+          "tou": {
+            "peak_rate": 44.97,
+            "offpeak_rate": 36.3,
+            "fixed_charges_note": "Varies by sanctioned load per NEPRA notification",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "industrial": {
+          "tou": {
+            "B1_B3_peak_rate": 37.83,
+            "B1_B3_offpeak_rate": 29.39,
+            "fixed_charges_note": "Higher voltage categories apply separately",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "agriculture": null,
+        "public_lighting": null
+      },
+      "notes": "FESCO follows the uniform tariff (FY2025-26) for all categories:contentReference[oaicite:4]{index=4}."
+    },
+    {
+      "city": "Multan",
+      "distributor": "Multan Electric Power Company (MEPCO)",
+      "effective_date": "2025-07-01",
+      "categories": {
+        "residential": null,
+        "commercial": {
+          "tou": {
+            "peak_rate": 44.97,
+            "offpeak_rate": 36.3,
+            "fixed_charges_note": "Varies by sanctioned load per NEPRA notification",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "industrial": {
+          "tou": {
+            "B1_B3_peak_rate": 37.83,
+            "B1_B3_offpeak_rate": 29.39,
+            "fixed_charges_note": "Higher voltage categories apply separately",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "agriculture": null,
+        "public_lighting": null
+      },
+      "notes": "MEPCO follows the uniform tariff (FY2025-26) for all categories:contentReference[oaicite:5]{index=5}."
+    },
+    {
+      "city": "Peshawar",
+      "distributor": "Peshawar Electric Supply Company (PESCO)",
+      "effective_date": "2025-07-01",
+      "categories": {
+        "residential": null,
+        "commercial": {
+          "tou": {
+            "peak_rate": 44.97,
+            "offpeak_rate": 36.3,
+            "fixed_charges_note": "Varies by sanctioned load per NEPRA notification",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "industrial": {
+          "tou": {
+            "B1_B3_peak_rate": 37.83,
+            "B1_B3_offpeak_rate": 29.39,
+            "fixed_charges_note": "Higher voltage categories apply separately",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "agriculture": null,
+        "public_lighting": null
+      },
+      "notes": "PESCO follows the uniform tariff (FY2025-26) for all categories:contentReference[oaicite:6]{index=6}."
+    },
+    {
+      "city": "Quetta",
+      "distributor": "Quetta Electric Supply Company (QESCO)",
+      "effective_date": "2025-07-01",
+      "categories": {
+        "residential": null,
+        "commercial": {
+          "tou": {
+            "peak_rate": 44.97,
+            "offpeak_rate": 36.3,
+            "fixed_charges_note": "Varies by sanctioned load per NEPRA notification",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "industrial": {
+          "tou": {
+            "B1_B3_peak_rate": 37.83,
+            "B1_B3_offpeak_rate": 29.39,
+            "fixed_charges_note": "Higher voltage categories apply separately",
+            "timings": {
+              "jun_aug_peak": "19:00-23:00",
+              "sep_nov_peak": "18:00-22:00",
+              "dec_feb_peak": "17:00-21:00",
+              "mar_may_peak": "18:00-22:00",
+              "off_peak": "All other hours"
+            }
+          }
+        },
+        "agriculture": null,
+        "public_lighting": null
+      },
+      "notes": "QESCO follows the uniform tariff (FY2025-26) for all categories:contentReference[oaicite:7]{index=7}."
+    }
+  ],
+  "adjustments": {
+    "FCA": {
+      "K-Electric_Apr2025": -4.043,
+      "XW-Discos_May2025": -0.5,
+      "note": "Fuel Charge Adjustments (FCA) as determined by NEPRA:contentReference[oaicite:8]{index=8}"
+    },
+    "QTA": {
+      "note": "Quarterly Tariff Adjustments (QTA) to maintain uniform tariff (pending govt. notification):contentReference[oaicite:9]{index=9}"
+    },
+    "UniformTariff": {
+      "note": "National uniform base tariff (Rs34/kWh) approved for FY2025-26:contentReference[oaicite:10]{index=10}"
+    }
+  },
+  "taxes_and_surcharges": {
+    "GST_percent": 18,
+    "Electricity_Duty_percent": {
+      "Domestic": 1.5,
+      "Commercial": 2.0,
+      "Industrial": 1.5,
+      "Bulk": 2.0,
+      "Agricultural": 1.0
+    },
+    "TV_fee": {
+      "Domestic": 35,
+      "Commercial_Industrial": 60
+    }
+  },
+  "distributors": [
+    {
+      "code": "KE",
+      "name": "K-Electric Limited",
+      "jurisdiction": "Karachi"
+    },
+    {
+      "code": "LESCO",
+      "name": "Lahore Electric Supply Co",
+      "jurisdiction": "Lahore"
+    },
+    {
+      "code": "IESCO",
+      "name": "Islamabad Electric Supply Co",
+      "jurisdiction": "Islamabad/Rawalpindi"
+    },
+    {
+      "code": "FESCO",
+      "name": "Faisalabad Electric Supply Co",
+      "jurisdiction": "Faisalabad"
+    },
+    {
+      "code": "MEPCO",
+      "name": "Multan Electric Power Co",
+      "jurisdiction": "Multan"
+    },
+    {
+      "code": "PESCO",
+      "name": "Peshawar Electric Supply Co",
+      "jurisdiction": "Peshawar"
+    },
+    {
+      "code": "QESCO",
+      "name": "Quetta Electric Supply Co",
+      "jurisdiction": "Quetta"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.thenews.com.pk/print/1326089-nepra-issues-countrywide-uniform-tariff-for-fy25-26",
+      "title": "NEPRA issues countrywide uniform tariff for FY25-26",
+      "pages": "L86-L94, L99-L101, L103-L106",
+      "notes": "Residential tariff slabs and subsidy adjustments:contentReference[oaicite:11]{index=11}:contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}"
+    },
+    {
+      "url": "https://www.brecorder.com/news/40371978",
+      "title": "NEPRA okays negative FCA adjustments for KE and Discos",
+      "pages": "L148-L152",
+      "notes": "FCA adjustments for KE (Apr 2025) and XW DISCOs (May 2025):contentReference[oaicite:14]{index=14}"
+    },
+    {
+      "url": "https://www.ke.com.pk/customer-services/tariff-structure/",
+      "title": "K-Electric Tariff Structure (Official Site)",
+      "pages": "L218-L222, L248-L250",
+      "notes": "Electricity Duty, TV fees and ToU timings for Karachi:contentReference[oaicite:15]{index=15}:contentReference[oaicite:16]{index=16}"
+    },
+    {
+      "url": "https://lesco.pk/lesco-tariff/",
+      "title": "LESCO Tariff Schedule (W.E.F. 2019)",
+      "pages": "L32-L39, L48-L56, L108-L112",
+      "notes": "Peak/off-peak hours and fixed charges for LESCO (reference):contentReference[oaicite:17]{index=17}:contentReference[oaicite:18]{index=18}"
+    },
+    {
+      "url": "https://www.ke.com.pk/customer-services/tariff-structure/",
+      "title": "K-Electric Tariff Structure (GST Notification)",
+      "pages": "L440-L442",
+      "notes": "GST rate raised to 18% under SRO 179-2023:contentReference[oaicite:19]{index=19}"
+    }
+  ],
+  "installation_multipliers": {
+    "Karachi": 1.1,
+    "Lahore": 1.0,
+    "Islamabad": 1.05,
+    "Multan": 1.08,
+    "Faisalabad": 1.07,
+    "Peshawar": 1.09,
+    "Quetta": 1.15
+  },
+  "feed_in_tariff": {
+    "KE": 19.32,
+    "LESCO": 19.32,
+    "IESCO": 19.32,
+    "FESCO": 19.32,
+    "MEPCO": 19.32,
+    "PESCO": 19.32,
+    "QESCO": 19.32,
+    "effective_date": "2025-07-01",
+    "notes": "NEPRA national net-metering feed-in rate (solar) Rs19.32/kWh FY25-26"
+  },
+  "seasonal_load_profile": {
+    "Jan": 0.8,
+    "Feb": 0.9,
+    "Mar": 1.0,
+    "Apr": 1.2,
+    "May": 1.4,
+    "Jun": 1.6,
+    "Jul": 1.7,
+    "Aug": 1.6,
+    "Sep": 1.3,
+    "Oct": 1.1,
+    "Nov": 0.9,
+    "Dec": 0.8
+  }
+}

@@ -1,0 +1,211 @@
+[
+  {
+    "name": "SkyElectric Hybrid Inverter - 10kW",
+    "category": "Hybrid Inverter",
+    "model": "SkyElectric Hybrid 3.0 Inverter - 10kW",
+    "description": "High Efficiency Hybrid Inverter for the SkyElectric 3.0 advanced solar energy system. Ideal for both on-grid and off-grid environments. It features a high voltage design for minimum power losses and seamless transitioning during outages. The IP65 design makes it dustproof and waterproof, and the fanless technology ensures noiseless operation.",
+    "key_features": [
+      "Phases: 3",
+      "Maximum PV Input Power: 15000 W",
+      "Nominal AC output power: 10000 W",
+      "Nominal input voltage: 600 V",
+      "PV MPPT Voltage Range: 200 V-950 V",
+      "Max. AC input power from grid: 15000 W",
+      "Battery Voltage Range: 180 V-600 V",
+      "Max. AC output current: 15.2 A",
+      "Backup Peak Output Power: 7.68 kW",
+      "Switch time to emergency mode: <20ms",
+      "Ingress Protection: IP65"
+    ],
+    "compatibility": [
+      "SkyElectric Smart Storage 3.0 (Battery Pack)",
+      "SkyElectric Secure Gateway"
+    ],
+    "dimensions_and_weight": "480mm x 540mm x 170mm (H x W x D), 27 kg",
+    "warranty_summary": "System warranty covered as part of Smart Solar System bundle (refer to package warranty)."
+  },
+  {
+    "name": "SkyElectric Smart Energy Inverter - 5kW",
+    "category": "Hybrid Inverter",
+    "description": "High Efficiency Hybrid Inverter for the SkyElectric 3.0 system. Features include cloud-connectivity for remote monitoring and management.",
+    "key_features": [
+      "Phases: 1",
+      "Maximum PV Input Power: 6650 W",
+      "Nominal AC output power: 5000 W",
+      "Nominal input voltage: 380 V",
+      "PV MPPT Voltage Range: 100-550 V",
+      "Max. Battery to Load Efficiency: 87.5%",
+      "Backup Peak Output Power: 5 kW",
+      "Switch time to emergency mode: <10ms",
+      "Ingress Protection: IP65"
+    ],
+    "dimensions_and_weight": "433mm x 354mm x 147mm, 17 kg"
+  },
+  {
+    "name": "SkyElectric Smart Storage 3.0 - 10kWh",
+    "category": "Lithium-ion Battery",
+    "model": "10 kWh",
+    "description": "Advanced Lithium-ion (LFP) battery pack with integrated Battery Management System (BMS) for longevity and safety. It has high energy density, allowing it to store 3-4 times the energy of lead-acid batteries in the same space. It is modular, allowing for higher capacity.",
+    "key_features": [
+      "Cell Chemistry: Li-Ion (LFP)",
+      "Usable Capacity @ 25°C: 9.2 kWh",
+      "Depth of Discharge (DoD): 95%",
+      "Room Temperature Cycle Life: ≥6000 cycles / 60% SOH",
+      "Coulombic Efficiency: 99%",
+      "Operating Voltage Range: 268.8 V-345.6 V",
+      "Operating Temperature Range: -10°C to 55°C",
+      "Ingress Protection: IP55"
+    ],
+    "compatibility": [
+      "CAN Communication Interface to Smart Inverter"
+    ],
+    "dimensions_and_weight": "720mm x 180mm x 1400mm (H x W x D), 145 kg",
+    "mounting": "Indoor Installation Environment",
+    "warranty_summary": "10 years (Room Temperature Calendar Life @ 25°C±2°C)"
+  },
+  {
+    "name": "Solar PV Panel: Tier-1, Grade-A, Bifacial 500W+",
+    "category": "Solar PV Module",
+    "description": "High-efficiency, bifacial solar panels used in SkyElectric Smart Solar Systems.",
+    "key_features": [
+      "Tier-1 Quality",
+      "Grade-A Rating",
+      "Bifacial Technology",
+      "Output: 500W+"
+    ],
+    "warranty_summary": "25-year performance warranty, 10-year workmanship warranty."
+  },
+  {
+    "name": "SkyElectric Smart Solar System (Hybrid)",
+    "category": "Complete System",
+    "model": "9.94kW PV x 10.0kWh Storage",
+    "description": "A complete, high-efficiency hybrid solar system (SkyElectric 3.0) with battery backup and net-metering capability.",
+    "components": [
+      "Solar PV Panel: Tier-1, Grade-A, Bifacial 500W+",
+      "SkyElectric Smart Storage 3.0 - 10kWh",
+      "SkyElectric Hybrid Inverter - 10kW"
+    ],
+    "system_rated_capacity_kw": 9.94,
+    "storage_kwh": 10.0,
+    "net_metering": true,
+    "price_inclusive_of_GST": "Rs 2,481,248.85",
+    "deployment_timeline": "Within 30 working days of receipt of 100% Advance"
+  },
+  {
+    "name": "Residential Package 3 kW",
+    "category": "Complete System",
+    "system_rated_capacity_kw": 3,
+    "storage_kwh": 3,
+    "intended_load_example": "One 1‑ton inverter AC, fridge, LCD/LED TV and a number of lights and fans during outage",
+    "notes": "Package sized for a small 1–2 bedroom house/apartment.",
+    "net_metering": true,
+    "backup_time_at_90_dod": "110 min at 90% Peak Load",
+    "connectivity": "WiFi & Cloud Communication"
+  },
+  {
+    "name": "Residential Package 5 kW",
+    "category": "Complete System",
+    "system_rated_capacity_kw": 5,
+    "storage_kwh": 5,
+    "intended_load_example": "Two 1‑ton inverter AC or one 2‑ton inverter AC, fridge, LCD/LED TV, lights and fans during outage",
+    "notes": "Package sized for a small 2–3 bedroom house.",
+    "net_metering": true,
+    "backup_time_at_90_dod": "60 min at 90% Peak Load",
+    "connectivity": "WiFi & Cloud Communication"
+  },
+  {
+    "name": "Residential Package 10 kW",
+    "category": "Complete System",
+    "system_rated_capacity_kw": 10,
+    "storage_kwh": 10,
+    "intended_load_example": "Four 1‑ton inverter ACs or three 1.5‑ton ACs plus typical household loads during outage",
+    "notes": "Package sized for 3–4 bedroom home. This system can handle loads like fridges, LCD/LED TVs, and a number of lights and fans during an outage.",
+    "net_metering": true,
+    "backup_time_at_90_dod": "60 min at 90% Peak Load",
+    "connectivity": "WiFi & Cloud Communication"
+  },
+  {
+    "name": "Residential Package 20 kW",
+    "category": "Complete System",
+    "system_rated_capacity_kw": 20,
+    "storage_kwh": "2x10 kWh",
+    "intended_load_example": "Eight 1-ton inverter ACs or six 1.5-ton inverter ACs, fridges, LCD/LED TVs and a number of lights and fans during outage.",
+    "notes": "Package sized for a large house of five to seven bedrooms.",
+    "net_metering": true,
+    "backup_time_at_90_dod": "60 min at 90% Peak Load",
+    "connectivity": "WiFi & Cloud Communication"
+  },
+  {
+    "name": "Residential Package 30 kW",
+    "category": "Complete System",
+    "system_rated_capacity_kw": 30,
+    "storage_kwh": "3x10 kWh",
+    "intended_load_example": "Twelve 1-ton inverter ACs or nine 1.5-ton inverter ACs, fridges, LCD/LED TVs and a number of lights and fans during outage.",
+    "notes": "Package sized for a luxury house of ten to fifteen bedrooms.",
+    "net_metering": true,
+    "backup_time_at_90_dod": "60 min at 90% Peak Load",
+    "connectivity": "WiFi & Cloud Communication"
+  },
+  {
+    "name": "Standard Grid-Tied System 10kW",
+    "category": "Grid‑Tied System",
+    "description": "A complete grid-tied solar system featuring a 10kW grid-tied inverter and net-metering capability, with no battery backup. Requires another backup source during outages.",
+    "components": [
+      "Solar PV Panel: Tier-1, Grade-A, Bifacial 500W+",
+      "Grid-Tied Inverter 10kW",
+      "Solar PV Structure- Standard L3 Aluminium with CW",
+      "Net Meter Cost",
+      "Net Metering Service Charges",
+      "Allied BOS - Indoor",
+      "Allied BOS - Outdoor",
+      "Earthing - DC",
+      "Installation - Outdoor"
+    ],
+    "system_rated_capacity_kw": 9.94,
+    "storage_kwh": 0.0,
+    "net_metering": true,
+    "backup_power": "Not available during outages (no batteries)",
+    "price_inclusive_of_GST": "Rs 1,252,940.66",
+    "deployment_timeline": "Within 30 working days of receipt of 100% Advance"
+  },
+  {
+    "name": "SmartFlow™ (AI Energy Management Software)",
+    "category": "Software",
+    "description": "Patented AI that computes and runs a Power Management Plan using tariffs, irradiance, grid availability, and load. It controls the inverter and storage to reduce bills and maximize uptime.",
+    "key_features": [
+      "Optimizes energy flows using tariffs and forecasts",
+      "Uses historical and predicted grid availability and irradiance",
+      "Controls inverter and storage to reduce bills and maximize uptime"
+    ],
+    "compatibility": [
+      "Smart Energy Inverter",
+      "Smart Energy Storage",
+      "Energy Console"
+    ]
+  },
+  {
+    "name": "Advanced Touchscreen Energy Console",
+    "category": "Monitoring & Control",
+    "description": "Console for real‑time monitoring of consumption, solar, and battery levels; part of SkyElectric system. It provides the same functions and energy visibility as the SkyElectric app.",
+    "key_features": [
+      "Touchscreen monitoring of power consumption",
+      "Displays battery and solar levels",
+      "Integrates with SmartFlow™ energy management"
+    ],
+    "compatibility": [
+      "Smart Energy Inverter",
+      "SmartFlow™"
+    ]
+  },
+  {
+    "name": "SkyElectric Secure Gateway",
+    "category": "Controller",
+    "description": "High performance management device that serves as the 'brain' of the system. It intelligently communicates with the inverter and battery pack, and is cloud-connected for 24/7 monitoring and support.",
+    "key_features": [
+      "Connects inverter and battery pack",
+      "Cloud connectivity via WiFi",
+      "Provides real-time system status via Smart LED display"
+    ],
+    "dimensions_and_weight": "H220mm x W170mm x D45mm, ~800g"
+  }
+]
